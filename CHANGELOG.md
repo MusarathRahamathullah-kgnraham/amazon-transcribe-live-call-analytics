@@ -6,7 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+## [0.9.7] - 2025-10-01
 
+### Added
+- Created patch file patches/qnabot/templates_util.js and updated publish.sh
+### Fixed
+-  Error: The stack is failing to create `LMAQnaBotOpensearchDomain`. The Resource handler returned message: "Invalid request provided: 1. CreateUserPoolClientAccessDenied: Cognito role ...ESCognitoRole... doesn't have permission to create user pool client in user-pool us-east-1_XXXXXXX. Configure the role with appropriate permissions and retry."
+
+  
 ## [0.9.6]
 
 ### Added
